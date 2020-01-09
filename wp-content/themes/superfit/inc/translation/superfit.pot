@@ -1,0 +1,950 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Superfit v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2018-08-02 02:37:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:12
+#@ superfit
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+#@ superfit
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:21
+#@ superfit
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore. Maybe try a search?"
+msgstr ""
+
+#: assets/wp_bootstrap_navwalker.php:197
+#@ superfit
+msgid "Add a menu"
+msgstr ""
+
+#: comments.php:21
+#@ superfit
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:21
+#@ superfit
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:21
+#@ superfit
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+#@ superfit
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:42
+#@ superfit
+msgid "Next Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+#@ superfit
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+#@ superfit
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:55
+#, php-format
+#@ superfit
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:56
+#@ superfit
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:57
+#@ superfit
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:59
+#@ superfit
+msgid "Name"
+msgstr ""
+
+#: comments.php:61
+#@ superfit
+msgid "Email"
+msgstr ""
+
+#: comments.php:63
+#@ superfit
+msgid "Website"
+msgstr ""
+
+#: contents/content-none.php:14
+#@ superfit
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: create first post link.
+#: contents/content-none.php:23
+#, php-format
+#@ superfit
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: contents/content-none.php:27
+#@ superfit
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: contents/content-none.php:33
+#@ superfit
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: contents/content-page.php:24
+#: contents/content-single.php:24
+#: contents/content.php:30
+#@ superfit
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: contents/content-page.php:38
+#, php-format
+#@ superfit
+msgid "Edit %s"
+msgstr ""
+
+#: inc/customizer/controls.php:14
+#: inc/customizer.php:14
+#@ superfit
+msgid "Post Template"
+msgstr ""
+
+#: inc/customizer/controls.php:26
+#: inc/customizer.php:26
+#@ superfit
+msgid "Select template:"
+msgstr ""
+
+#: inc/customizer/controls.php:30
+#: inc/customizer.php:30
+#@ superfit
+msgid "With Sidebar (Default)"
+msgstr ""
+
+#: inc/customizer/controls.php:31
+#: inc/customizer.php:31
+#@ superfit
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer/controls.php:37
+#: inc/customizer.php:37
+#@ superfit
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/controls.php:39
+#: inc/customizer.php:39
+#@ superfit
+msgid "Select a page to be assigned for each section"
+msgstr ""
+
+#: inc/customizer/controls.php:47
+#: inc/customizer.php:47
+#@ superfit
+msgid "Section 1"
+msgstr ""
+
+#: inc/customizer/controls.php:58
+#: inc/customizer.php:58
+#@ superfit
+msgid "Section 2"
+msgstr ""
+
+#: inc/customizer/controls.php:69
+#: inc/customizer.php:69
+#@ superfit
+msgid "Section 3"
+msgstr ""
+
+#: inc/customizer/controls.php:80
+#: inc/customizer.php:80
+#@ superfit
+msgid "Enter Blog Url"
+msgstr ""
+
+#: inc/customizer/controls.php:92
+#@ superfit
+msgid "Accent Color 1"
+msgstr ""
+
+#: inc/customizer/controls.php:103
+#@ superfit
+msgid "Accent Color 2"
+msgstr ""
+
+#: inc/customizer/controls.php:114
+#@ superfit
+msgid "Top Background"
+msgstr ""
+
+#: inc/functions.php:63
+#@ superfit
+msgid "Posts Widget Area"
+msgstr ""
+
+#: inc/functions.php:64
+#@ superfit
+msgid "The Posts Widget Area."
+msgstr ""
+
+#: inc/functions.php:73
+#@ superfit
+msgid "Home Widget Area"
+msgstr ""
+
+#: inc/functions.php:74
+#@ superfit
+msgid "The Home Widget Area."
+msgstr ""
+
+#: inc/functions.php:130
+#@ superfit
+msgid "Main Nav"
+msgstr ""
+
+#: inc/functions.php:131
+#@ superfit
+msgid "Social Nav"
+msgstr ""
+
+#: inc/functions.php:153
+#@ superfit
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions.php:157
+#, php-format
+#@ superfit
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: inc/functions.php:157
+#@ superfit
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions.php:204
+#@ superfit
+msgid "Read more"
+msgstr ""
+
+#: inc/functions.php:237
+#@ superfit
+msgid "Bookly #1 WordPress Booking Plugin (Lite Version)"
+msgstr ""
+
+#: inc/functions.php:243
+#@ superfit
+msgid "Better Contact Details"
+msgstr ""
+
+#: inc/functions.php:249
+#@ superfit
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/functions.php:272
+#: inc/plugin/class-tgm.php:327
+#@ superfit
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/functions.php:273
+#: inc/plugin/class-tgm.php:328
+#@ superfit
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/functions.php:274
+#: inc/plugin/class-tgm.php:330
+#, php-format
+#@ superfit
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/functions.php:275
+#: inc/plugin/class-tgm.php:333
+#@ superfit
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions.php:276
+#: inc/plugin/class-tgm.php:336
+#, php-format
+#@ superfit
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions.php:277
+#: inc/plugin/class-tgm.php:342
+#, php-format
+#@ superfit
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:278
+#, php-format
+#@ superfit
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions.php:279
+#: inc/plugin/class-tgm.php:360
+#, php-format
+#@ superfit
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions.php:280
+#: inc/plugin/class-tgm.php:366
+#, php-format
+#@ superfit
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:281
+#, php-format
+#@ superfit
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions.php:282
+#: inc/plugin/class-tgm.php:348
+#, php-format
+#@ superfit
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:283
+#, php-format
+#@ superfit
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:284
+#: inc/plugin/class-tgm.php:371
+#@ superfit
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:285
+#: inc/plugin/class-tgm.php:381
+#@ superfit
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions.php:286
+#: inc/plugin/class-tgm.php:385
+#@ superfit
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/functions.php:287
+#: inc/plugin/class-tgm.php:387
+#: inc/plugin/class-tgm.php:3159
+#@ superfit
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/functions.php:288
+#, php-format
+#@ superfit
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/plugin/class-tgm.php:332
+#, php-format
+#@ superfit
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/plugin/class-tgm.php:354
+#, php-format
+#@ superfit
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:376
+#@ superfit
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:386
+#: inc/plugin/class-tgm.php:827
+#: inc/plugin/class-tgm.php:2533
+#: inc/plugin/class-tgm.php:3580
+#@ superfit
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:390
+#, php-format
+#@ superfit
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:392
+#, php-format
+#@ superfit
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/plugin/class-tgm.php:394
+#, php-format
+#@ superfit
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:395
+#@ superfit
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:396
+#@ superfit
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:397
+#@ superfit
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:522
+#@ superfit
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:523
+#@ superfit
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#@ superfit
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#: inc/plugin/class-tgm.php:937
+#@ superfit
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:937
+#@ superfit
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:1121
+#: inc/plugin/class-tgm.php:2948
+#@ superfit
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/plugin/class-tgm.php:1982
+#, php-format
+#@ superfit
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2273
+#@ superfit
+msgid "Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2276
+#@ superfit
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2292
+#@ superfit
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2295
+#@ superfit
+msgid "External Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2298
+#@ superfit
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2315
+#@ superfit
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2319
+#@ superfit
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2321
+#@ superfit
+msgid "Active"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2327
+#@ superfit
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2330
+#@ superfit
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2333
+#@ superfit
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/plugin/class-tgm.php:2342
+#, php-format
+#@ superfit
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2388
+#, php-format
+#@ superfit
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2392
+#, php-format
+#@ superfit
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2396
+#, php-format
+#@ superfit
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2400
+#, php-format
+#@ superfit
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:2482
+#@ superfit
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2490
+#@ superfit
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2498
+#@ superfit
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2510
+#@ superfit
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2533
+#@ superfit
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2547
+#@ superfit
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2548
+#@ superfit
+msgid "Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2549
+#@ superfit
+msgid "Type"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2553
+#@ superfit
+msgid "Version"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2554
+#@ superfit
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2603
+#, php-format
+#@ superfit
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2608
+#, php-format
+#@ superfit
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2614
+#, php-format
+#@ superfit
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2684
+#@ superfit
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2717
+#@ superfit
+msgid "Install"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2723
+#@ superfit
+msgid "Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2726
+#@ superfit
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2757
+#@ superfit
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2759
+#@ superfit
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2800
+#@ superfit
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2802
+#@ superfit
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2908
+#@ superfit
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2934
+#@ superfit
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/plugin/class-tgm.php:2952
+#: inc/plugin/class-tgm.php:388
+#@ superfit
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:3158
+#@ superfit
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3498
+#, php-format
+#@ superfit
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/plugin/class-tgm.php:3501
+#, php-format
+#@ superfit
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3503
+#, php-format
+#@ superfit
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3507
+#@ superfit
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3509
+#, php-format
+#@ superfit
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ superfit
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ superfit
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3510
+#@ superfit
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3512
+#, php-format
+#@ superfit
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3515
+#@ superfit
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3517
+#, php-format
+#@ superfit
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3518
+#@ superfit
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3520
+#, php-format
+#@ superfit
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/social-nav.php:36
+#@ superfit
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/social-nav.php:41
+#@ superfit
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/template-hooks.php:32
+#: inc/template-hooks.php:55
+#: inc/template-hooks.php:70
+#@ superfit
+msgid ", "
+msgstr ""
+
+#: inc/template-hooks.php:90
+#@ superfit
+msgid "Published By "
+msgstr ""
+
+#: inc/template-hooks.php:102
+#@ superfit
+msgid "Previous"
+msgstr ""
+
+#: inc/template-hooks.php:106
+#@ superfit
+msgid "Next"
+msgstr ""
+
+#: inc/template-hooks.php:129
+#@ superfit
+msgid "Social Links Menu"
+msgstr ""
+
+#: inc/template-hooks.php:154
+#@ superfit
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/template-hooks.php:214
+#@ superfit
+msgid "copyright"
+msgstr ""
+
+#: inc/template-hooks.php:216
+#@ superfit
+msgid "Built with"
+msgstr ""
+
+#: inc/template-hooks.php:216
+#@ superfit
+msgid "https://wpdevshed.com/themes/superfit"
+msgstr ""
+
+#: inc/template-hooks.php:216
+#@ superfit
+msgid "and"
+msgstr ""
+
+#: inc/template-hooks.php:216
+#@ superfit
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/template-hooks.php:228
+#@ superfit
+msgid "Search For"
+msgstr ""
+
+#: inc/template-hooks.php:341
+#: template-homeblog.php:31
+#@ superfit
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/template-hooks.php:349
+#: template-homeblog.php:55
+#@ superfit
+msgid "Read More Blogs"
+msgstr ""
+
+#: inc/template-hooks.php:362
+#@ superfit
+msgid "instagram Feed"
+msgstr ""
+
+#: index.php:16
+#@ superfit
+msgid "Blog"
+msgstr ""
+
+#: search.php:15
+#@ superfit
+msgid "Search Results for:"
+msgstr ""
+
+#: template-homeblog.php:24
+#@ superfit
+msgid "Read More"
+msgstr ""
+

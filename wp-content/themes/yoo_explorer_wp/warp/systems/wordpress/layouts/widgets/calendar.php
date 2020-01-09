@@ -1,0 +1,21 @@
+<?php
+/**
+* @package   Warp Theme Framework
+* @author    YOOtheme http://www.yootheme.com
+* @copyright Copyright (C) YOOtheme GmbH
+* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+*/
+
+$dom  = $this->getHelper('dom');
+
+if ($table = $dom->create($oldoutput)->first('table:first')) {
+
+	foreach ($table->attr() as $name => $value) {
+		$table->removeAttr($name);
+	}
+
+    echo $table->attr('class', 'calendar')->html();
+
+} else {
+    echo $oldoutput;
+}

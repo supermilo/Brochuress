@@ -1,0 +1,41 @@
+.w-itext {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	transform: translate3d(0, 0, 0);
+	word-wrap: break-word;
+	/* remove gradient from Headings color, as it doesn't work in Chrome */
+	background-image: none;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	color: inherit;
+	}
+	.w-itext-part {
+		display: inline-block;
+		position: relative;
+		white-space: nowrap;
+		text-align: left;
+		transition-property: width, color;
+		}
+	.w-itext-part.notransition {
+		transition-property: none !important;
+		}
+		.w-itext-part > span.measure {
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			}
+		.w-itext-part > span > span {
+			display: inline-block;
+			visibility: hidden;
+			}
+		.w-itext-part > span > span[class^="animated_"] {
+			visibility: visible;
+			}
+		.w-itext-part > span > span:last-child {
+			margin-right: -200px;
+			}
+	.w-itext.dynamic_bold .dynamic {
+		font-weight: bold;
+		}

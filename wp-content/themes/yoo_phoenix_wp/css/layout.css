@@ -1,0 +1,360 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/**
+ * page
+ */
+ 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	color: #646464;
+}
+
+/**
+ * layout blocks
+ */
+
+.wrapper { margin: auto; }
+
+#header {
+	position: relative;
+	z-index: 10;
+	height: 150px;
+	clear: both;
+}
+
+#top {
+	overflow: hidden;
+	clear: both;
+}
+
+#top .topbox { margin-top: 15px; }
+
+#middle {
+	padding: 15px 0px 15px 0px;
+	clear: both;
+}
+
+#bottom {
+	overflow: hidden;
+	clear: both;
+}
+
+#bottom .bottombox { padding-bottom: 15px; } /** padding used instead of margin because IE7 float/margin-bottom bug */
+
+#footer {
+	position: relative;
+	padding-bottom: 15px;
+	clear: both;
+	text-align: center;
+}
+
+/**
+ * 3-column-layout
+ */
+ 
+#middle {
+	width: 100%; /** must have for IE6 and also when using float */
+	/** float: left; /** force equal height as tallest column */
+	overflow: hidden; /** chop off expanded container */
+	position: relative; /** fixes overflow hidden bug (horizontal scrollbars) in IE7 and Opera 9 (in Opera only when using a div with position: absolute inside) */
+}
+
+#middle-expand {
+	width: 200%;
+}
+
+/** column 2 */
+#main {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#main-shift {
+	position: relative;
+	left: -100%;
+	/** margin-left: 215px; /* left width + spacing (set by template parameters) */
+	/** margin-right: 215px; /* right width + spacing (set by template parameters) */
+	overflow: hidden;
+}
+
+/** column 1 */
+#left {
+	position: relative;
+	left: -50%;
+	/** width: 200px; /* set by template parameters */
+	float: left;
+	overflow:hidden;
+}
+
+/** column 3 */
+#right {
+	/** width: 200px; /* set by template parameters */
+	/** margin-left: -400px; /* left + right width (set by template parameters) */
+	float: left;
+	overflow:hidden;
+}
+
+/**
+ * inner layout blocks
+ */
+
+div#maintop,
+div#contenttop {
+	margin: 0px 0px 15px 0px;
+	overflow: hidden;
+}
+
+div#contentbottom,
+div#mainbottom {
+	margin: 15px 0px 0px 0px;
+	overflow: hidden;
+}
+
+/**
+ * inner 3-column-layout
+ */
+ 
+#mainmiddle {
+	width: 100%; /** must have for IE6 and also when using float */
+	/** float: left; /** force equal height as tallest column */
+	overflow: hidden; /** chop off expanded container */
+	position: relative; /** fixes overflow hidden bug (horizontal scrollbars) in IE7 and Opera 9 (in Opera only when using a div with position: absolute inside) */
+}
+
+#mainmiddle-expand {
+	width: 200%;
+}
+
+/** column 2 */
+#content {
+	position: relative;
+	left: 50%;
+	width: 50%;
+	float: left;
+}
+
+#content-shift {
+	position: relative;
+	left: -100%;
+	/** margin-left: 115px; /* left width + spacing (set by template parameters) */
+	/** margin-right: 115px; /* right width + spacing (set by template parameters) */
+	overflow: hidden;
+}
+
+/** column 1 */
+#contentleft {
+	position: relative;
+	left: -50%;
+	/** width: 100px; /* set by template parameters */
+	float: left;
+	overflow:hidden;
+}
+
+/** column 3 */
+#contentright {
+	/** width: 100px; /* set by template parameters */
+	/** margin-left: -200px; /* left + right width (set by template parameters) */
+	float: left;
+	overflow:hidden;
+}
+
+/**
+ * float-box-layout
+ */
+
+.floatbox { overflow:hidden; }
+
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width15 { width: 15%; }
+.width18 { width: 18%; }
+.width20 { width: 20%; }
+.width23 { width: 23%; }
+.width25 { width: 25%; }
+.width33 { width: 33%; }
+.width34 { width: 34%; }
+.width35 { width: 35%; }
+.width40 { width: 40%; }
+.width46 { width: 46%; }
+.width50 { width: 50%; }
+.width54 { width: 54%; }
+.width65 { width: 65%; }
+.width75 { width: 75%; }
+.width100 { width: 100%; }
+
+/**
+ * backgrounds
+ */
+
+body.yoopage { background: #FAFAFA url(../images/page_bg_b.png) 0 100% repeat-x fixed; }
+#page-body { background: url(../images/page_bg_t.png) 0 0 repeat-x fixed; }
+
+.wrapper-bg1 {}
+.wrapper-bg2 { padding: 0px 15px 0px 15px; }
+
+/**
+ * module wrappers
+ */
+
+#absolute {
+	position: absolute;
+	z-index: 15;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#breadcrumbs {
+	margin-bottom: 15px;
+	font-size: 85%;
+}
+
+#breadcrumbs a,
+#breadcrumbs span {	display: inline-block; }
+
+#breadcrumbs a,
+#breadcrumbs span.separator {
+	padding: 0px 15px 0px 0px;
+	background: url(../images/breadcrumbs.png) 100% 50% no-repeat;
+}
+
+/**
+ * header
+ */
+
+
+/** bars */
+#toolbar {
+	height: 25px;
+	overflow: hidden;
+	line-height: 25px;
+	font-size: 9px;
+}
+
+#date {
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+#headerbar {
+	height: 75px;
+	padding-left: 220px;
+	overflow: hidden;
+}
+
+#menubar { background: url(../images/menubar_bg.png) 0 0 no-repeat; }
+
+#menubar div.menubar-2 {
+	padding: 0px 20px 0px 20px;
+	background: url(../images/menubar_bg.png) 100% -50px no-repeat;
+}
+
+#menubar div.menubar-3 {
+	height: 50px;
+	background: url(../images/menubar_bg.png) 0 -100px repeat-x;
+}
+
+/** absolute */
+#logo {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+
+#menu {
+	position: absolute;
+	top: 105px;
+	left: 20px;
+	z-index: 11;
+}
+
+#search {
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	z-index: 12;
+	width: 120px;
+	height: 32px;
+	padding: 13px 15px 0px 15px;
+	background: url(../images/search_bg.png) 0 0 no-repeat;
+}
+
+#banner {
+	position: absolute;
+	top: 100px;
+	right: -15px;
+	width: 0px;
+	z-index: 3;
+}
+
+/**
+ * footer
+ */
+
+#footer a:link, #footer a:visited { }
+#footer a:hover { }
+
+#footer a.anchor {
+	position: absolute;
+	right: 0px;
+	top: 3px;
+	width: 30px;
+	height: 5px;
+	background: url(../images/footer_anchor.png) 0 -10px no-repeat;
+	display: block;
+	text-decoration: none;
+}
+
+/**
+ * mainmiddle wrapper
+ */
+
+div.mainmiddle-wrapper-tl { background: url(../images/module_rounded_white_corners.png) 0 0 no-repeat; }
+
+div.mainmiddle-wrapper-tr {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_rounded_white_corners.png) 100% -15px no-repeat;
+}
+
+div.mainmiddle-wrapper-t {
+	border-top: 1px solid #D2D2D2;
+	background: #ffffff;
+}
+
+div.mainmiddle-wrapper-t div.contentright-bg { height: 9px; }
+
+div.mainmiddle-wrapper-m {
+	padding: 0px 9px 0px 9px;
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	background: #ffffff;
+}
+
+div.mainmiddle-wrapper-m div.contentright-bg {
+	padding: 5px;
+	overflow: hidden;
+}
+
+div.mainmiddle-wrapper-bl { background: url(../images/module_rounded_white_corners.png) 0 -30px no-repeat; }
+
+div.mainmiddle-wrapper-br {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_rounded_white_corners.png) 100% -45px no-repeat;
+}
+
+div.mainmiddle-wrapper-b {
+	height: 9px;
+	border-bottom: 1px solid #D2D2D2;
+	background: #ffffff;
+}
+
+div.mainmiddle-wrapper-b div.contentright-bg { height: 9px; }
+
+.column-contentleft div.contentleft-bg { background: url(../images/contentleft_bg.png) 0 0 repeat-y; }
+.column-contentright div.contentright-bg { background: url(../images/contentright_bg.png) 100% 0 repeat-y; }
+
